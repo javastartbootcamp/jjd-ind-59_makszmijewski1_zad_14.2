@@ -1,0 +1,1 @@
+bmw;7;2023;2000.0;1234;samochód osobowy
