@@ -70,26 +70,20 @@ public class VehicleControlStation {
 
     private Vehicle createVehicle() {
         Scanner scanner = new Scanner(System.in);
-        String type;
         System.out.println("Podaj typ pojazdu: ");
-        type = scanner.nextLine();
-        String brand;
+        String type = scanner.nextLine();
         System.out.println("Podaj markę pojazdu: ");
-        brand = scanner.nextLine();
-        String model;
+        String brand = scanner.nextLine();
         System.out.println("Podaj model pojazdu: ");
-        model = scanner.nextLine();
-        int year;
+        String model = scanner.nextLine();
         System.out.println("Podaj rok produkcji pojazdu: ");
-        year = scanner.nextInt();
+        int year = scanner.nextInt();
         scanner.nextLine();
-        double mileage;
         System.out.println("Podaj przebieg pojazdu: ");
-        mileage = scanner.nextDouble();
+        double mileage = scanner.nextDouble();
         scanner.nextLine();
-        String vinNumber;
         System.out.println("Podaj vin pojazdu: ");
-        vinNumber = scanner.nextLine();
+        String vinNumber = scanner.nextLine();
         return new Vehicle(type, brand, model, year, mileage, vinNumber);
     }
 }
