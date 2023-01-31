@@ -1,0 +1,5 @@
+samochod;bmw;5;2023;200.0;1234
+ciezarowka;mercedes;actross;2023;100.0;2345
+motocykl;yamaha;r1;2023;200.0;12345
+samochod osobwoy;bmw;5;2023;1230.0;12333
+samochod osobowy;bmw;5;2023;1212.0;1212
